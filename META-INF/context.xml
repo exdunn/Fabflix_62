@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/fabflix">
+	<Resource name="fabflix/moviedb_read" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="testuser" password="testpass" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/moviedb?autoReconnect=true&amp;useSSL=false" />
+    <Resource name="fabflix/moviedb_write" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="testuser" password="testpass" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://172.31.26.112:3306/moviedb?autoReconnect=true&amp;useSSL=false" />
+</Context>

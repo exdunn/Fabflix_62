@@ -1,0 +1,20 @@
+#searchForm {
+	position: absolute;
+    left: 50%;
+    top: 20px;
+    width: 300px;
+    height:30px;
+}
+
+#autocompleteDropdown
+{
+	max-height: 500px;
+	min-width: 100px;
+    min-height: 0px;
+    background-color: #FFF;
+    position:absolute;
+    z-index: 999;
+    left:0;
+    top:0;
+    box-shadow: 0px 0px 5px #888888;
+}
