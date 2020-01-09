@@ -1,5 +1,7 @@
 # Fabflix
 
+![Fabflix](./fabflix.gif)
+
 ## Features
 * Access to library of 1000's of movies
 * User authentication and cart system
